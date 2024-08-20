@@ -10,7 +10,8 @@
     "build": "vite build",
     "test": "vitest",
     "lint": "eslint --ext .js,.jsx,.ts,.tsx .",
-    "format": "prettier -w '**/*.{js,jsx,ts,tsx}'"
+    "format": "prettier -w '**/*.{js,jsx,ts,tsx}'",
+    "sass": "sass -w styles/:dist/css"
   },
   "eslintConfig": {
     "extends": "@devacademy/eslint-config/react",
@@ -49,5 +50,8 @@
     "semi": false,
     "singleQuote": true
   },
-  "browserslist": "> 2%, not dead"
+  "browserslist": "> 2%, not dead",
+  "dependencies": {
+    "sass": "^1.77.8"
+  }
 }
