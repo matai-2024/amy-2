@@ -22,6 +22,8 @@
   "license": "ISC",
   "devDependencies": {
     "@devacademy/eslint-config": "^1.10.1",
+    "@tanstack/react-query": "^5.52.0",
+    "@tanstack/react-query-devtools": "^5.52.0",
     "@types/node": "^18.11.9",
     "@types/react": "^18.0.28",
     "@types/react-dom": "^18.0.11",

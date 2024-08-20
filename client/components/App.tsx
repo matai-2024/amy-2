@@ -1,10 +1,10 @@
-import Main from "./Main"
+import { Outlet } from 'react-router-dom'
 import Footer from "./Footer"
 
 function App() {
   return (
     <div>
-      <Main />
+      <Outlet />
       <Footer />
     </div>
   )
