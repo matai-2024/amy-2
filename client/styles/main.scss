@@ -1,6 +1,48 @@
 @import "globals";
 @import "variables";
 
+/* Utilities */
+
+.margin-b80 {
+  margin-block: 80px;
+}
+
+/* Main */
+
+html {
+  height: 100vh;
+}
+
 body {
   font-family: "Karla", sans-serif;
+  text-align: center;
+
+  h1 {
+    margin-block: 5px;
+    color: $black;
+    font-size: 80px;
+    font-weight: 400;
+  }
+  
+  h2 {
+    margin-block: 5px;
+    color: $primary-dark;
+    font-size: 48px;
+    font-weight: 400;
+  }
+
+  p {
+    font-size: 40px;
+  }
+}
+
+.wrapper {
+  display: table;
+  padding-inline: 6em;
+  height: 100vh;
+}
+
+.wrapper-item {
+  display: table-cell;
+  vertical-align: middle;
 }

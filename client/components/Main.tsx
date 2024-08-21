@@ -4,10 +4,12 @@ import Tags from "./home/Tags";
 
 export default function Main() {
   return (
-    <>
-      <Intro />
-      <CTA />
-      <Tags />
-    </>
+    <main className="wrapper">
+      <section className="wrapper-item">
+        <Intro />
+        <CTA />
+        <Tags />
+      </section>
+    </main>
   )
 }
