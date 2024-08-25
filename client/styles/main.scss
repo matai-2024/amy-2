@@ -1,12 +1,6 @@
 @import "globals";
 @import "variables";
 
-/* Utilities */
-
-.margin-b80 {
-  margin-block: 80px;
-}
-
 /* Main */
 
 html {
@@ -16,6 +10,7 @@ html {
 body {
   font-family: "Karla", sans-serif;
   text-align: center;
+  background-color: white;
 
   h1 {
     margin-block: 5px;
@@ -47,8 +42,52 @@ body {
   vertical-align: middle;
 }
 
+.home-text {
+  margin-block: 80px;
+}
+
 .projects-button {
   padding-block: 25px;
   padding-inline: 100px;
+  color: $white;
   font-size: 40px;
+  letter-spacing: 1px;
+  background-color: $primary-dark;
+  border: 1px solid $primary-dark;
+  border-radius: 6px;
+}
+
+@media only screen and (min-width: 992px) {
+
+  body {
+    text-align: left;
+
+    h1 {
+      margin-block: 18px;
+      font-size: 62px;
+    }
+    
+    h2 {
+      font-size: 32px;
+    }
+  
+    p {
+      font-size: 18px;
+    }
+  }
+} 
+
+.wrapper {
+  margin-inline: 8vw;
+}
+
+.home-text {
+  margin-block: 46px;
+}
+
+.projects-button {
+  margin-block: 20px;
+  padding-block: 12px;
+  padding-inline: 50px;
+  font-size: 22px;
 }
