@@ -28,6 +28,7 @@ body {
 
   p {
     font-size: 40px;
+    letter-spacing: 0.5px;
   }
 }
 
@@ -65,29 +66,31 @@ body {
     h1 {
       margin-block: 18px;
       font-size: 62px;
+      letter-spacing: 0.5px;
     }
     
     h2 {
       font-size: 32px;
+      letter-spacing: 0.5px;
     }
   
     p {
       font-size: 18px;
     }
   }
-} 
 
-.wrapper {
-  margin-inline: 8vw;
-}
+  .wrapper {
+    margin-inline: 8vw;
+  }
 
-.home-text {
-  margin-block: 46px;
-}
+  .home-text {
+    margin-block: 46px;
+  }
 
-.projects-button {
-  margin-block: 20px;
-  padding-block: 12px;
-  padding-inline: 50px;
-  font-size: 22px;
+  .projects-button {
+    margin-block: 20px;
+    padding-block: 12px;
+    padding-inline: 50px;
+    font-size: 22px;
+  }
 }
