@@ -5,7 +5,10 @@ export default function Intro() {
       <h2>Front-end Software Developer</h2>
       <div className="home-text">
         <p>I enjoy diverse and continuous learning opportunities.</p>
-        <p>Currently doodling and creating engaging projects from Auckland, New Zealand.</p>
+        <p>
+          Currently doodling and creating engaging projects from Auckland, New
+          Zealand.
+        </p>
       </div>
     </>
   )

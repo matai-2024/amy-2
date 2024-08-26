@@ -1,15 +1,19 @@
-import Intro from "./home/Intro";
-import CTA from "./home/CTA";
-import Tags from "./home/Tags";
+import Intro from './home/Intro'
+import CTA from './home/CTA'
+import Tags from './home/Tags'
 
 export default function Main() {
   return (
     <main className="wrapper">
-      <section className="wrapper-item">
-        <Intro />
-        <CTA />
-        <Tags />
-      </section>
+      <div className="wrapper-item">
+        <div className="col-80-pc">
+          <Intro />
+          <CTA />
+        </div>
+        <div>
+          <Tags />
+        </div>
+      </div>
     </main>
   )
 }
